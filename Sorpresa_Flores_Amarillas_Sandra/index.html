@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff8df" />
+  <meta name="description" content="Una pequeña sorpresa llena de flores amarillas para Sandra Sarai." />
+  <title>Para Sandra Sarai 💛</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="petal-field" aria-hidden="true"></div>
+  <main class="app-shell">
+    <div class="topline"><span class="sun-icon">✳</span><span>UN DETALLE HECHO CON AMOR</span><span class="sun-icon">✳</span></div>
+    <section class="screen active" id="screen-0" aria-labelledby="main-title">
+      <div class="hero-flower" aria-hidden="true"><span class="flower-emoji">🌻</span><span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">✦</span></div>
+      <p class="eyebrow">PARA ALGUIEN MUY ESPECIAL</p>
+      <h1 id="main-title">Sandra Sarai,<br><em>esto es para ti.</em></h1>
+      <p class="intro">Preparé una pequeña sorpresa. No es solo una página… es un pedacito de todo el cariño que quiero darte.</p>
+      <button class="primary-btn" data-next="1">Tengo una sorpresa para ti <span>♡</span></button>
+      <div class="signature">con cariño, <strong>tu Yampisun</strong></div>
+      <div class="bottom-note">DESLIZA CON EL CORAZÓN ABIERTO <span>↓</span></div>
+    </section>
+    <section class="screen" id="screen-1" aria-labelledby="title-1">
+      <div class="step-label">01 <span>·</span> UN PEQUEÑO SECRETO</div>
+      <div class="mini-illustration">💌</div>
+      <h2 id="title-1">Antes de las flores…</h2>
+      <p class="body-copy">quiero que recuerdes algo, Sandra: hay personas que hacen que los días comunes se sientan un poquito más bonitos. Para mí, tú eres una de ellas.</p>
+      <div class="quote-card"><span>“</span><p>Si pudiera elegir un lugar bonito para estar, muchas veces elegiría aquel donde estás tú.</p><span class="quote-end">”</span></div>
+      <button class="primary-btn" data-next="2">Quiero descubrir más <span>→</span></button>
+      <button class="text-btn" data-prev="0">Volver un momento</button>
+    </section>
+    <section class="screen" id="screen-2" aria-labelledby="title-2">
+      <div class="step-label">02 <span>·</span> ABRE CADA DETALLE</div>
+      <h2 id="title-2">Tres cositas para ti</h2>
+      <p class="body-copy compact">Toca cada tarjeta para descubrir lo que guarda. 💛</p>
+      <div class="memory-grid">
+        <button class="memory-card" data-message="Me encanta que seas tú, con tu forma única de ver el mundo y de hacer especiales los pequeños momentos."><span class="memory-icon">🌼</span><span class="memory-title">Lo que admiro</span><span class="memory-hint">toca para abrir ↗</span></button>
+        <button class="memory-card" data-message="Ojalá nunca te falten motivos para sonreír, sueños que perseguir y personas que te recuerden lo valiosa que eres."><span class="memory-icon">✨</span><span class="memory-title">Lo que deseo</span><span class="memory-hint">toca para abrir ↗</span></button>
+        <button class="memory-card" data-message="No hace falta una fecha perfecta para tener un detalle contigo. Hoy me nació recordarte lo especial que eres para mí."><span class="memory-icon">💛</span><span class="memory-title">Por qué hoy</span><span class="memory-hint">toca para abrir ↗</span></button>
+      </div>
+      <p class="opened-count" id="opened-count">Has descubierto 0 de 3 detalles</p>
+      <button class="primary-btn" id="to-flowers" disabled>Descubrir el regalo <span>🌻</span></button>
+      <button class="text-btn" data-prev="1">Volver</button>
+    </section>
+    <section class="screen" id="screen-3" aria-labelledby="title-3">
+      <div class="step-label">03 <span>·</span> UN RAMO PARA TI</div>
+      <div class="bouquet" aria-label="Ramo ilustrado de flores amarillas">
+        <div class="stem stem1"></div><div class="stem stem2"></div><div class="stem stem3"></div>
+        <div class="leaf leaf1"></div><div class="leaf leaf2"></div><div class="leaf leaf3"></div>
+        <div class="sunflower flower1"><i></i></div><div class="sunflower flower2"><i></i></div><div class="sunflower flower3"><i></i></div>
+        <div class="wrap"></div><div class="ribbon"></div>
+      </div>
+      <h2 id="title-3">Flores amarillas<br><em>para iluminar tu día.</em></h2>
+      <p class="body-copy">No puedo poner todo lo que siento en un ramo, pero sí puedo usar estas flores para recordarte que mereces cosas bonitas, hoy y siempre.</p>
+      <button class="primary-btn" data-next="4">Hay una última sorpresa <span>♡</span></button>
+      <button class="text-btn" data-prev="2">Quiero ver mis detalles otra vez</button>
+    </section>
+    <section class="screen" id="screen-4" aria-labelledby="title-4">
+      <div class="step-label">04 <span>·</span> UNA CARTA PARA TI</div>
+      <div class="letter-envelope" id="envelope"><div class="envelope-back"></div><div class="letter-paper"><span class="letter-flower">🌼</span><p>Para mi querida Sandra Sarai</p><small>con todo mi cariño…</small></div><div class="envelope-flap"></div><div class="envelope-front"></div></div>
+      <h2 id="title-4">Unas palabras<br><em>desde el corazón.</em></h2>
+      <p class="body-copy compact">La última sorpresa está dentro de esta carta.</p>
+      <button class="primary-btn" id="open-letter">Abrir mi carta <span>💌</span></button>
+      <button class="text-btn" data-prev="3">Volver a las flores</button>
+    </section>
+    <section class="screen" id="screen-5" aria-labelledby="title-5">
+      <div class="step-label">PARA TI, SANDRA <span>♡</span></div>
+      <div class="final-card">
+        <div class="final-flower">🌻</div>
+        <p class="letter-greeting">Mi querida Sandra Sarai:</p>
+        <h2 id="title-5">Que nunca te falten<br><em>razones para florecer.</em></h2>
+        <p class="letter-body">Hoy quería regalarte flores amarillas y, junto a ellas, recordarte lo mucho que vales. Que la vida te sorprenda con días tranquilos, sueños cumplidos, sonrisas sinceras y mucho amor.<br><br>Gracias por ser tú. Ojalá este pequeño detalle te saque una sonrisa y te acompañe un ratito, como tú puedes hacer más bonito un día cualquiera.<br><br>Guarda estas flores como un recordatorio: mereces que te quieran bonito, que te cuiden y que celebren tu luz.</p>
+        <p class="letter-signoff">Con cariño infinito,</p><p class="signed-name">Tu Yampisun <span>♡</span></p>
+        <div class="letter-divider">✳ &nbsp; ✳ &nbsp; ✳</div>
+      </div>
+      <button class="primary-btn" id="restart">Volver a vivir la sorpresa <span>↻</span></button>
+      <p class="tiny-footer">HECHO ESPECIALMENTE PARA SANDRA S. 💛</p>
+    </section>
+    <div class="modal" id="message-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-card"><button class="close-modal" id="close-modal" aria-label="Cerrar">×</button><div class="modal-flower">🌼</div><p class="eyebrow">UN MENSAJE PARA TI</p><h3 id="modal-title">Una cosita bonita</h3><p id="modal-message"></p><button class="primary-btn small-btn" id="modal-done">Me lo guardo en el corazón <span>♡</span></button></div></div>
+    <footer class="site-footer"><span>✳</span> una sorpresa de Su Yampisun <span>✳</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
